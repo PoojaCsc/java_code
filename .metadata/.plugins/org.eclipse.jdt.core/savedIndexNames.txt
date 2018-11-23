@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Self\General\Pooja\Edu_Career\Learning\Java\Code\.metadata\.plugins\org.eclipse.jdt.core
+3675602412.index
+1657330681.index
+2290235912.index
+1458976790.index

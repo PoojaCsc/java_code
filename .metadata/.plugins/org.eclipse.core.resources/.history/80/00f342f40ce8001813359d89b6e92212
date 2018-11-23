@@ -1,0 +1,33 @@
+
+class Thread1 extends Thread {                  // extend Thread class
+	@Override
+	public void run() {                     // override Thread class's run method
+		for(int i =1 ; i<=10 ; i++)
+			System.out.println("thread1" + i);
+		
+	}
+	
+}
+
+class Thread2 extends Thread{
+	@Override
+	public void run() {
+		for(int i = 11 ; i <=20 ; i++)
+			System.out.println("Thread2" + i);
+	}
+}
+
+
+
+public class ThreadsInJava {
+
+	public static void main(String[] args) {
+		Thread1 t1 = new Thread1();           // create an object of the Thread1 class
+		t1.start();						// Start the thread
+		
+		Thread2 t2 = new Thread2();
+		t2.start();
+
+	}
+
+}

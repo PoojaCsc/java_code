@@ -1,0 +1,22 @@
+package CodeWars;
+
+public class Sum {
+	
+	public int GetSum(int a, int b)
+    {
+     //Good luck!
+	int sum=0;
+     if(a<b){
+    	 for(int i = a ; i<=b ; i++)
+    		 sum = sum + i;
+     }
+     return 0;
+     
+    }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

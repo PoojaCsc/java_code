@@ -1,0 +1,11 @@
+
+public class HeapStack {
+	int a;
+	public void myMethod(){
+	 System.out.println("Hello World");
+	 }
+    public static void main(){
+	 HeapStack obj = new HeapStack();
+	 obj.myMethod();
+	 }
+}
